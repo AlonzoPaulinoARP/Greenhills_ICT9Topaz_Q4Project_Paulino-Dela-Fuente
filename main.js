@@ -1,5 +1,5 @@
 const validCredentials = [
-    { username: "Alden Raver", password: "sigmaraver" }
+    { username: "Alonzo Brent", password: "19372654" }
 ];
 
 let attempts = 3;
