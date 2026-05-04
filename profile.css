@@ -1,0 +1,57 @@
+navbar {
+    position: fixed;
+    top: 0%;
+    z-index: 1000;
+    display: flex;
+    width: 100%;
+}
+.button-container {
+display: flex;
+gap: 10px;
+}
+.footer-custom h5 {
+    color: #ffffff;
+}
+footer {
+    position: fixed;
+    bottom: 0%;
+    z-index: 1000;
+    display: flex;
+    width: 100%;
+}
+body {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmwOkZKjuR8h07APiyo2iUSwE4G9Gnkt_PZA&s);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.avatar-wrapper {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden; /* Clips the image into a circle */
+  margin-bottom: 20px;
+  border: 2px solid #ddd;
+}
+
+#profile-preview {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image fills the circle without stretching */
+}
+
+input[type="file"] {
+  cursor: pointer;
+}
+.box {
+    background: rgb(241, 237, 237, 0.9);
+    padding: 20px;
+    border-radius: 30px;
+}

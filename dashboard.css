@@ -1,0 +1,41 @@
+body {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmwOkZKjuR8h07APiyo2iUSwE4G9Gnkt_PZA&s);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar {
+    position: fixed;
+    top: 0%;
+    z-index: 1000;
+    display: flex;
+    width: 100%;
+}
+.button-container {
+display: flex;
+gap: 10px;
+}
+.footer-custom h5 {
+    color: #ffffff;
+}
+footer {
+    position: fixed;
+    bottom: 0%;
+    z-index: 1000;
+    display: flex;
+    width: 100%;
+}
+h1 {
+    text-align: center;
+    color: #ffffff;
+}
+.box {
+    background: rgb(241, 237, 237, 0.9);
+    padding: 20px;
+    border-radius: 30px;
+    max-width: 500px;
+    margin-left: 510px;
+}
+h2 {
+    text-align: center;
+}
